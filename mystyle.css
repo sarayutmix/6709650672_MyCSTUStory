@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #ffd700;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.content {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ff8c00;
+    font-size: 1.5em;
+    border-bottom: 2px solid #ff8c00;
+    padding-bottom: 5px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+video, img {
+    width: 100%;
+    max-width: 960px;
+    height: auto;
+    border-radius: 8px;
+}
+figcaption {
+    font-style: italic;
+    color: #666;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #ffd700;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .about-me-container {
+        flex-direction: row;
+    }
+}
+
+.about-me-container video {
+    margin-right: 20px;
+    align-self: flex-start;
+}
+
+.about-me-text {
+    font-size: 1.4em;
+    color: #333;
+    max-width: 1200px; /* จำกัดความกว้างของข้อความให้พอดีกับหน้า */
+}
+
+.about-me-container video {
+    width: 960px; /* ปรับขนาดความกว้างของวิดีโอ */
+    height: 720px; /* ปรับขนาดความสูงของวิดีโอ */
+    margin-right: 20px;
+}
+
+img {
+    width: 100%;
+    max-width: 300px; /* ขนาดสูงสุดของรูปภาพ */
+    height: auto;
+    border-radius: 8px;
+}
